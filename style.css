@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-image: url(images/wallpaper.jpg);
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    margin: 10px;
+    
+}
+
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 160px 160px;
+    justify-content: center;
+}
+
+.subcontainer {
+    background-color: crimson;
+    width: 150px;
+    height: 100px;
+    margin-left: 5px;
+    margin-top: 25px;
+    border-radius: 15px;
+    filter: grayscale(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subcontainer:nth-child(8){
+    margin-bottom: 25px; 
+}
+
+.hidden  {
+    display: none;
+}
+
+span {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+#primeiro {
+    background-image: url(images/primeira.jpg);
+    background-size: cover;
+    background-position: 0px;
+}
+
+#segundo {
+    background-image: url(images/segunda.png);
+    background-size: cover;
+    background-position: 0px;
+}
+
+#terceiro {
+    background-image: url(images/terceita.jpg);
+    background-size: cover;
+    background-position: 0px;
+}
+
+#quarto {
+    background-image: url(images/quarta.jpg);
+    background-size: cover;
+    background-position: 0px;
+}
+
+#quinto {
+    background-image: url(images/quinta.jpg);
+    background-size: cover;
+    background-position: 0px;
+}
+
+#sexto {
+    background-image: url(images/sexta.png);
+    background-size: cover;
+    background-position: 0px;
+}
+
+#setimo {
+    background-image: url(images/setima.jpg);
+    background-size: cover;
+    background-position: 0px;
+}
+
+#oitavo {
+    background-image: url(images/oitava.jpg);
+    background-size: cover;
+    background-position: 0px;
+    
+}
+
